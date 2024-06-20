@@ -6,7 +6,7 @@ import DesignPattern.Behavioral.Observer.Observer.EmailNotificationAlertObserver
 import DesignPattern.Behavioral.Observer.Observer.NotificationAlertObserver;
 
 public class ObserverDesignPatternDriver {
-    public static void executeObserverPattern() {
+    public static void execute() {
         StockObservable iPhoneStockObservable = new IPhoneStockObservable();
 
         NotificationAlertObserver observer1 = new EmailNotificationAlertObserver("kk@kk.com", iPhoneStockObservable);

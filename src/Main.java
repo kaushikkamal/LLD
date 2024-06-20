@@ -1,18 +1,13 @@
 import DesignPattern.Behavioral.Observer.ObserverDesignPatternDriver;
 import DesignPattern.Behavioral.Strategy.StrategyDesignPatternDriver;
+import DesignPattern.Creational.Singleton.SingletonDesignPatternDriver;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        // Strategy Design Pattern start
-        StrategyDesignPatternDriver.executeStrategyDesignPattern();
+        StrategyDesignPatternDriver.execute(); // Strategy Design Pattern
 
-        //StrategyDesignPatternDriver.executeStrategyDesignPattern();
-        // Strategy Design Pattern end
+        ObserverDesignPatternDriver.execute(); // Observer Design Pattern
 
-        // Observer Design Pattern start/
-        ObserverDesignPatternDriver.executeObserverPattern();
-        // Observer Design Pattern end
+        SingletonDesignPatternDriver.execute(); // Singleton Design Pattern
     }
 }

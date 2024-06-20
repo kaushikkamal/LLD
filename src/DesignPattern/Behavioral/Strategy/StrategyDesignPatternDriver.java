@@ -5,7 +5,7 @@ import DesignPattern.Behavioral.Strategy.Context.SportsVehicle;
 import DesignPattern.Behavioral.Strategy.Context.Vehicle;
 
 public class StrategyDesignPatternDriver {
-    public static void executeStrategyDesignPattern() {
+    public static void execute() {
         Vehicle v1 = new SportsVehicle();
         v1.drive();
 
