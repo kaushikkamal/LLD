@@ -1,5 +1,6 @@
 import DesignPattern.Behavioral.Observer.ObserverDesignPatternDriver;
 import DesignPattern.Behavioral.Strategy.StrategyDesignPatternDriver;
+import DesignPattern.Creational.FactoryMethod.FactoryDesignPatternDriver;
 import DesignPattern.Creational.Singleton.SingletonDesignPatternDriver;
 import DesignPattern.Structural.Decorator.DecoratorDesignPatternDriver;
 
@@ -11,6 +12,8 @@ public class Main {
 //
 //        SingletonDesignPatternDriver.execute(); // Singleton Design Pattern
 
-        DecoratorDesignPatternDriver.execute();
+//        DecoratorDesignPatternDriver.execute();
+
+        FactoryDesignPatternDriver.execute();
     }
 }
