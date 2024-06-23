@@ -1,4 +1,4 @@
-package DesignPattern.Creational.FactoryMethod;
+package DesignPattern.Creational.FactoryMethod.Shape;
 
 public enum ShapeTypeEnum {
     CIRCLE,

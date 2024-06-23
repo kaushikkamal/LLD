@@ -3,8 +3,7 @@ package DesignPattern.Creational.FactoryMethod.ShapeFactory;
 import DesignPattern.Creational.FactoryMethod.Shape.Circle;
 import DesignPattern.Creational.FactoryMethod.Shape.Rectangle;
 import DesignPattern.Creational.FactoryMethod.Shape.Shape;
-import DesignPattern.Creational.FactoryMethod.ShapeTypeEnum;
-
+import DesignPattern.Creational.FactoryMethod.Shape.ShapeTypeEnum;
 
 public class ShapeFactory {
     Shape shape;

@@ -1,6 +1,7 @@
 package DesignPattern.Creational.FactoryMethod;
 
 import DesignPattern.Creational.FactoryMethod.Shape.Shape;
+import DesignPattern.Creational.FactoryMethod.Shape.ShapeTypeEnum;
 import DesignPattern.Creational.FactoryMethod.ShapeFactory.ShapeFactory;
 
 public class FactoryDesignPatternDriver {

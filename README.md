@@ -5,7 +5,8 @@
 ### Creational Patterns
 - [Singleton](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/Singleton)
 
-[//]: # (- [Factory Method]&#40;https://refactoring.guru/design-patterns/factory-method&#41;)
+- [Factory Method](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/FactoryMethod)
+
 [//]: # (- [Abstract Factory]&#40;https://refactoring.guru/design-patterns/abstract-factory&#41;)
 [//]: # (- [Builder]&#40;https://refactoring.guru/design-patterns/builder&#41;)
 ### Structural Patterns
