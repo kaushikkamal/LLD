@@ -1,5 +1,5 @@
 ## Low Level Design (LLD)
-
+LLD or Low-Level Design, is a phase in the software development process where detailed system components and their interactions are specified. It involves converting the high-level design into a more detailed blueprint, addressing specific algorithms, data structures, and interfaces.
 
 ## ⚙️ Design Patterns
 ### Creational Patterns
@@ -7,7 +7,8 @@
 
 - [Factory Method](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/FactoryMethod)
 
-[//]: # (- [Abstract Factory]&#40;https://refactoring.guru/design-patterns/abstract-factory&#41;)
+- [Abstract Factory](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/AbstractFactory)
+
 [//]: # (- [Builder]&#40;https://refactoring.guru/design-patterns/builder&#41;)
 ### Structural Patterns
 
@@ -20,6 +21,7 @@
 - [Strategy](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Behavioral/Strategy)
 
 [//]: # (- [Iterator]&#40;https://refactoring.guru/design-patterns/iterator&#41;)
+
 - [Observer](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Behavioral/Observer)
 
 [//]: # (- [Template Method]&#40;https://refactoring.guru/design-patterns/template-method&#41;)
