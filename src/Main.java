@@ -1,4 +1,5 @@
 import ElevatorSystem.ElevatorDrive;
+import ParkingLotSystem.ParkingLotDriver;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +15,9 @@ public class Main {
 
         // chat gpt version
 
-        ElevatorDrive.execute();
+//        ElevatorDrive.execute();
+
+        ParkingLotDriver.execute();
     }
 
 
