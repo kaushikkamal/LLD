@@ -16,31 +16,28 @@ public class EntranceGate {
     Ticket ticket;
 
     public void findParkingSpace(Vehicle vehicle) {
-        ParkingSpotManager parkingSpotManager;
+        ParkingSpotManager parkingSpotManager = null;
         switch (vehicle.getVehicleType()) {
             case TWO_WHEELER: {
                 parkingSpotManager = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.TWO_WHEELER_PARKING_SPOT);
-                try {
-                    ParkingSpot parkedSpot = parkingSpotManager.parkVehicle(vehicle);
-                    generateTicket(vehicle, parkedSpot);
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
                 break;
             }
             case FOUR_WHEELER: {
                 parkingSpotManager = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.FOUR_WHEELER_PARKING_SPOT);
-                try {
-                    ParkingSpot parkedSpot = parkingSpotManager.parkVehicle(vehicle);
-                    generateTicket(vehicle, parkedSpot);
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
                 break;
             }
             default: {
+                parkingSpotManager = null;
                 System.out.println("No vehicle found");
                 break;
+            }
+        }
+        if (parkingSpotManager != null) {
+            try {
+                ParkingSpot parkedSpot = parkingSpotManager.parkVehicle(vehicle);
+                generateTicket(vehicle, parkedSpot);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
             }
         }
     }
@@ -51,8 +48,6 @@ public class EntranceGate {
 
     public void generateTicket(Vehicle vehicle, ParkingSpot parkingSpot) {
         Ticket ticket1 = new Ticket(vehicle, parkingSpot);
-
-        System.out.println(ticket1);
+        parkingSpot.getVehicle().setTicket(ticket1);
     }
-
 }

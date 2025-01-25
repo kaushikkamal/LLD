@@ -22,15 +22,7 @@ public class ParkingLotDriver {
         Vehicle v5 = new Vehicle(34343, VehicleType.FOUR_WHEELER);
         Vehicle v6 = new Vehicle(56565, VehicleType.FOUR_WHEELER);
 
-        // ParkingSpotManage
-        List<ParkingSpot> twoWheelerParkingSpotList = new ArrayList<>();
-        List<ParkingSpot> fourWheelerParkingSpotList = new ArrayList<>();
-
-//        ParkingSpotManager twoWheelerParkingSpotManger = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.TWO_WHEELER_PARKING_SPOT, twoWheelerParkingSpotList);
-
         ParkingSpotManager twoWheelerParkingSpotManger = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.TWO_WHEELER_PARKING_SPOT);
-
-//        ParkingSpotManager fourWheelerParkingSpotManger = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.FOUR_WHEELER_PARKING_SPOT, fourWheelerParkingSpotList);
 
         ParkingSpotManager fourWheelerParkingSpotManger = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.FOUR_WHEELER_PARKING_SPOT);
 
@@ -42,9 +34,6 @@ public class ParkingLotDriver {
             fourWheelerParkingSpotManger.addParkingSpace(new ParkingSpot(i));
         }
 
-        System.out.println(twoWheelerParkingSpotManger.getParkingSpotList());
-        System.out.println(fourWheelerParkingSpotManger.getParkingSpotList());
-
         // add vehicle to the particular list
 
         EntranceGate entranceGate = new EntranceGate();
@@ -55,14 +44,10 @@ public class ParkingLotDriver {
         entranceGate.findParkingSpace(v5);
         entranceGate.findParkingSpace(v6);
 
-        System.out.println(twoWheelerParkingSpotManger.getParkingSpotList());
-        System.out.println(fourWheelerParkingSpotManger.getParkingSpotList());
-
         ExitGate exitGate = new ExitGate();
         exitGate.exitVehicle(v1);
-        exitGate.exitVehicle(v4);
+//        exitGate.exitVehicle(v4);
 
-        System.out.println(twoWheelerParkingSpotManger.getParkingSpotList());
-        System.out.println(fourWheelerParkingSpotManger.getParkingSpotList());
+
     }
 }

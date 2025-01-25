@@ -1,8 +1,11 @@
 package ParkingLotSystem.Vehicle;
 
+import ParkingLotSystem.Ticket.Ticket;
+
 public class Vehicle {
     private int vehicleNumber;
     private VehicleType vehicleType;
+    private Ticket ticket;
 
     public Vehicle() {
     }
@@ -10,6 +13,7 @@ public class Vehicle {
     public Vehicle(int vehicleNumber, VehicleType vehicleType) {
         this.vehicleNumber = vehicleNumber;
         this.vehicleType = vehicleType;
+        this.ticket = null;
     }
 
     @Override
@@ -17,6 +21,7 @@ public class Vehicle {
         return "Vehicle{" +
                 "vehicleNumber=" + vehicleNumber +
                 ", vehicleType=" + vehicleType +
+                ", ticket=" + ticket +
                 '}';
     }
 
@@ -34,5 +39,13 @@ public class Vehicle {
 
     public void setVehicleType(VehicleType vehicleType) {
         this.vehicleType = vehicleType;
+    }
+
+    public Ticket getTicket() {
+        return ticket;
+    }
+
+    public void setTicket(Ticket ticket) {
+        this.ticket = ticket;
     }
 }
