@@ -26,7 +26,6 @@ public class Ticket {
                 '}';
     }
 
-
     public long getEntryTime() {
         return entryTime;
     }

@@ -9,13 +9,12 @@ import ParkingLotSystem.Ticket.Ticket;
 import ParkingLotSystem.Vehicle.Vehicle;
 
 public class EntranceGate {
-    ParkingSpotFactory parkingSpotFactory;
-    ParkingSpotManagerFactory parkingSpotManagerFactory;
 
+//    ParkingSpotFactory parkingSpotFactory;
+//    ParkingSpotManagerFactory parkingSpotManagerFactory;
+//    Ticket ticket;
 
-    Ticket ticket;
-
-    public void findParkingSpace(Vehicle vehicle) {
+    public void findParkingSpaceAndBook(Vehicle vehicle) {
         ParkingSpotManager parkingSpotManager = null;
         switch (vehicle.getVehicleType()) {
             case TWO_WHEELER: {
@@ -42,12 +41,9 @@ public class EntranceGate {
         }
     }
 
-    public void bookParkingSpot(Vehicle vehicle) {
-
-    }
-
-    public void generateTicket(Vehicle vehicle, ParkingSpot parkingSpot) {
-        Ticket ticket1 = new Ticket(vehicle, parkingSpot);
-        parkingSpot.getVehicle().setTicket(ticket1);
+    public void generateTicket(Vehicle vehicle, ParkingSpot parkedSpot) {
+        Ticket ticket1 = new Ticket(vehicle, parkedSpot);
+        parkedSpot.getVehicle().setTicket(ticket1);
+        System.out.println("### Ticket Generated - Vehicle " + vehicle.getVehicleNumber() + " is parked at " + parkedSpot.getParkingId() + " ###");
     }
 }

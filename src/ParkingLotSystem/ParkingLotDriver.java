@@ -9,9 +9,6 @@ import ParkingLotSystem.ParkingSpotManager.ParkingSpotManagerFactory;
 import ParkingLotSystem.Vehicle.Vehicle;
 import ParkingLotSystem.Vehicle.VehicleType;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ParkingLotDriver {
     public static void execute() {
         // Vehicles
@@ -37,17 +34,22 @@ public class ParkingLotDriver {
         // add vehicle to the particular list
 
         EntranceGate entranceGate = new EntranceGate();
-        entranceGate.findParkingSpace(v1);
-        entranceGate.findParkingSpace(v2);
-        entranceGate.findParkingSpace(v3);
-        entranceGate.findParkingSpace(v4);
-        entranceGate.findParkingSpace(v5);
-        entranceGate.findParkingSpace(v6);
+        entranceGate.findParkingSpaceAndBook(v1);
+        entranceGate.findParkingSpaceAndBook(v2);
+        entranceGate.findParkingSpaceAndBook(v3);
+        entranceGate.findParkingSpaceAndBook(v4);
+        entranceGate.findParkingSpaceAndBook(v5);
+        entranceGate.findParkingSpaceAndBook(v6);
 
         ExitGate exitGate = new ExitGate();
         exitGate.exitVehicle(v1);
-//        exitGate.exitVehicle(v4);
+        exitGate.exitVehicle(v4);
 
+        entranceGate.findParkingSpaceAndBook(v3);
+        entranceGate.findParkingSpaceAndBook(v6);
+
+        exitGate.exitVehicle(v1);
+        exitGate.exitVehicle(v4);
 
     }
 }

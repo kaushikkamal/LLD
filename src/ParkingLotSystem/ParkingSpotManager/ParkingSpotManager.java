@@ -59,7 +59,7 @@ public class ParkingSpotManager implements ParkingSpotManagerInterface {
             }
         }
         if (vehicleParkingSpot == null) {
-            throw new RuntimeException("The vehicle is not present in the Parking Lot");
+            throw new RuntimeException("The vehicle " + vehicle.getVehicleNumber() + " is not present in the Parking Lot");
         }
 
         vehicleParkingSpot.removeVehicle();

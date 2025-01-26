@@ -6,10 +6,7 @@ public class ParkingSpot implements ParkingSpotInterface {
     private int parkingId;
     private Vehicle vehicle;
 
-//    private int price;
-
     public ParkingSpot() {
-
     }
 
     public ParkingSpot(int parkingId) {
@@ -32,6 +29,10 @@ public class ParkingSpot implements ParkingSpotInterface {
         this.vehicle = null;
     }
 
+    public int getParkingId() {
+        return parkingId;
+    }
+
     public Vehicle getVehicle() {
         return vehicle;
     }
@@ -43,12 +44,4 @@ public class ParkingSpot implements ParkingSpotInterface {
     public boolean isAvailable() {
         return this.vehicle == null;
     }
-
-//    public int getPrice() {
-//        return price;
-//    }
-//
-//    public void setPrice(int price) {
-//        this.price = price;
-//    }
 }
