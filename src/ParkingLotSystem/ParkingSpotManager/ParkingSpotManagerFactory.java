@@ -7,13 +7,13 @@ public class ParkingSpotManagerFactory {
      * Only one object of particular ParkingSpotManager will be created.
      * One object for twoWheelerParkingSpotManger and one for fourWheelerParkingSpotManger
      */
-    private static volatile ParkingSpotManager twoWheelerParkingSpotManger;
-    private static volatile ParkingSpotManager fourWheelerParkingSpotManger;
+    private static volatile ParkingSpotManagerInterface twoWheelerParkingSpotManger;
+    private static volatile ParkingSpotManagerInterface fourWheelerParkingSpotManger;
 
     private ParkingSpotManagerFactory() {
     }
 
-    public static ParkingSpotManager getParkingSpotManager(ParkingSpotType parkingSpotType) {
+    public static ParkingSpotManagerInterface getParkingSpotManager(ParkingSpotType parkingSpotType) {
         switch (parkingSpotType) {
             case TWO_WHEELER_PARKING_SPOT -> {
                 if (twoWheelerParkingSpotManger == null) {

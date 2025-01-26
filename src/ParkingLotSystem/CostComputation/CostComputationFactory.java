@@ -7,8 +7,8 @@ public class CostComputationFactory {
     public CostComputationFactory() {
     }
 
-    public static CostComputation getCostComputation(VehicleType vehicleType, long hour, long minute, long second) {
-        CostComputation computation;
+    public static CostComputationInterface getCostComputation(VehicleType vehicleType, long hour, long minute, long second) {
+        CostComputationInterface computation;
         switch (vehicleType) {
             case TWO_WHEELER: {
                 computation = new TwoWheelerCostComputation(hour, minute, second);

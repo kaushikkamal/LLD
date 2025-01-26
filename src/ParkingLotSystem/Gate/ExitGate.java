@@ -2,10 +2,12 @@ package ParkingLotSystem.Gate;
 
 import ParkingLotSystem.CostComputation.CostComputation;
 import ParkingLotSystem.CostComputation.CostComputationFactory;
+import ParkingLotSystem.CostComputation.CostComputationInterface;
 import ParkingLotSystem.ParkingSpot.ParkingSpotFactory;
 import ParkingLotSystem.ParkingSpot.ParkingSpotType;
 import ParkingLotSystem.ParkingSpotManager.ParkingSpotManager;
 import ParkingLotSystem.ParkingSpotManager.ParkingSpotManagerFactory;
+import ParkingLotSystem.ParkingSpotManager.ParkingSpotManagerInterface;
 import ParkingLotSystem.PricingStrategy.HourlyPricingStrategy;
 import ParkingLotSystem.PricingStrategy.PricingStrategy;
 import ParkingLotSystem.Ticket.Ticket;
@@ -13,15 +15,12 @@ import ParkingLotSystem.Vehicle.Vehicle;
 import ParkingLotSystem.Vehicle.VehicleType;
 
 public class ExitGate {
-    ParkingSpotFactory parkingSpotFactory;
-    ParkingSpotManagerFactory parkingSpotManagerFactory;
-
 
     public void makePayment() {
     }
 
     public void exitVehicle(Vehicle vehicle) {
-        ParkingSpotManager parkingSpotManager = null;
+        ParkingSpotManagerInterface parkingSpotManager = null;
         switch (vehicle.getVehicleType()) {
             case TWO_WHEELER: {
                 parkingSpotManager = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.TWO_WHEELER_PARKING_SPOT);
@@ -68,7 +67,7 @@ public class ExitGate {
         System.out.println(String.format("Hour: %d, Minute: %d, Seconds: %d", hours, minutes, seconds));
 
         // calculate cost with strategy
-        CostComputation cost = CostComputationFactory.getCostComputation(vehicle.getVehicleType(), hours, minutes, seconds);
+        CostComputationInterface cost = CostComputationFactory.getCostComputation(vehicle.getVehicleType(), hours, minutes, seconds);
 
         System.out.printf("Total Cost: %f%n", cost.calculateTotalPrice());
         System.out.println("### Bill for " + vehicle.getVehicleNumber() + " End ###");

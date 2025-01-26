@@ -12,13 +12,8 @@ public class Main {
 
 //        ElevatorSystemDemo.run();
 //        ElevatorSystemDriver.execute();
-
-        // chat gpt version
-
 //        ElevatorDrive.execute();
 
         ParkingLotDriver.execute();
     }
-
-
 }

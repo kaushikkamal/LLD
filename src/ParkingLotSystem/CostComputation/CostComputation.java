@@ -5,7 +5,7 @@ import ParkingLotSystem.PricingStrategy.MinutePricingStrategy;
 import ParkingLotSystem.PricingStrategy.PricingStrategy;
 import ParkingLotSystem.PricingStrategy.SecondPricingStrategy;
 
-public class CostComputation {
+public class CostComputation implements CostComputationInterface {
     private PricingStrategy hourStrategy;
     private PricingStrategy minuteStrategy;
     private PricingStrategy secondStrategy;

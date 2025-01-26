@@ -5,17 +5,14 @@ import ParkingLotSystem.ParkingSpot.ParkingSpotFactory;
 import ParkingLotSystem.ParkingSpot.ParkingSpotType;
 import ParkingLotSystem.ParkingSpotManager.ParkingSpotManager;
 import ParkingLotSystem.ParkingSpotManager.ParkingSpotManagerFactory;
+import ParkingLotSystem.ParkingSpotManager.ParkingSpotManagerInterface;
 import ParkingLotSystem.Ticket.Ticket;
 import ParkingLotSystem.Vehicle.Vehicle;
 
 public class EntranceGate {
 
-//    ParkingSpotFactory parkingSpotFactory;
-//    ParkingSpotManagerFactory parkingSpotManagerFactory;
-//    Ticket ticket;
-
     public void findParkingSpaceAndBook(Vehicle vehicle) {
-        ParkingSpotManager parkingSpotManager = null;
+        ParkingSpotManagerInterface parkingSpotManager = null;
         switch (vehicle.getVehicleType()) {
             case TWO_WHEELER: {
                 parkingSpotManager = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.TWO_WHEELER_PARKING_SPOT);

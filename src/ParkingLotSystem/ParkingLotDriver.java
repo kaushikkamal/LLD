@@ -4,8 +4,8 @@ import ParkingLotSystem.Gate.EntranceGate;
 import ParkingLotSystem.Gate.ExitGate;
 import ParkingLotSystem.ParkingSpot.ParkingSpot;
 import ParkingLotSystem.ParkingSpot.ParkingSpotType;
-import ParkingLotSystem.ParkingSpotManager.ParkingSpotManager;
 import ParkingLotSystem.ParkingSpotManager.ParkingSpotManagerFactory;
+import ParkingLotSystem.ParkingSpotManager.ParkingSpotManagerInterface;
 import ParkingLotSystem.Vehicle.Vehicle;
 import ParkingLotSystem.Vehicle.VehicleType;
 
@@ -19,9 +19,8 @@ public class ParkingLotDriver {
         Vehicle v5 = new Vehicle(34343, VehicleType.FOUR_WHEELER);
         Vehicle v6 = new Vehicle(56565, VehicleType.FOUR_WHEELER);
 
-        ParkingSpotManager twoWheelerParkingSpotManger = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.TWO_WHEELER_PARKING_SPOT);
-
-        ParkingSpotManager fourWheelerParkingSpotManger = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.FOUR_WHEELER_PARKING_SPOT);
+        ParkingSpotManagerInterface twoWheelerParkingSpotManger = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.TWO_WHEELER_PARKING_SPOT);
+        ParkingSpotManagerInterface fourWheelerParkingSpotManger = ParkingSpotManagerFactory.getParkingSpotManager(ParkingSpotType.FOUR_WHEELER_PARKING_SPOT);
 
         for (int i = 1; i <= 2; ++i) {
             twoWheelerParkingSpotManger.addParkingSpace(new ParkingSpot(i));
@@ -30,8 +29,6 @@ public class ParkingLotDriver {
         for (int i = 3; i <= 4; ++i) {
             fourWheelerParkingSpotManger.addParkingSpace(new ParkingSpot(i));
         }
-
-        // add vehicle to the particular list
 
         EntranceGate entranceGate = new EntranceGate();
         entranceGate.findParkingSpaceAndBook(v1);
@@ -50,6 +47,5 @@ public class ParkingLotDriver {
 
         exitGate.exitVehicle(v1);
         exitGate.exitVehicle(v4);
-
     }
 }

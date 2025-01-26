@@ -1,0 +1,359 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram id="_y2VuRm0UtsbCpHTmFCn" name="Page-1">
+    <mxGraphModel dx="5066" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-1" value="Vehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3350" y="-710" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-2" value="int&amp;nbsp;vehicleNumber;&lt;div style=&quot;line-height: 150%;&quot;&gt;VehicleType vehicleType&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;Ticket ticket&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-1">
+          <mxGeometry y="26" width="200" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-5" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;fontSize=16;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2820" y="-770" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-6" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-5">
+          <mxGeometry width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-7" value="VehicleType" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-5">
+          <mxGeometry y="20" width="180" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-8" value="" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=16;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-5">
+          <mxGeometry y="34" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-9" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;TWO_WHEELER&lt;div&gt;FOUR_WHEELER&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacing=0;spacingLeft=8;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-5">
+          <mxGeometry y="42" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-12" target="ukfq2VlUtqQ9S5M-QcPr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-103" value="HAS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-101">
+          <mxGeometry x="-0.1841" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-12" value="Ticket" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2800" y="-590" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-13" value="long entryTime&lt;div style=&quot;line-height: 150%;&quot;&gt;Vehicle vehicle&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;ParkingSpot parkingSpot&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-12">
+          <mxGeometry y="26" width="200" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2905" y="-184" as="sourcePoint" />
+            <mxPoint x="-2905" y="-184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-15" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span&gt;&lt;b&gt;ParkingSpotInterface&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; text-align: center; line-height: 140%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void parkVehicle(Vehicle vehicle);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; text-align: center; line-height: 140%;&quot;&gt;&lt;span style=&quot;line-height: 140%;&quot;&gt;&amp;nbsp; &amp;nbsp; void removeVehicle();&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2575" y="-260" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.259;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-16" target="ukfq2VlUtqQ9S5M-QcPr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-120" value="HAS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-119">
+          <mxGeometry x="-0.386" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;ParkingSpot&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; int parkingId;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; Vehicle vehicle;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3190" y="-262.5" width="260" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-16" target="ukfq2VlUtqQ9S5M-QcPr-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2300" y="-224" as="sourcePoint" />
+            <mxPoint x="-2300" y="-354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-19" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;Implements&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-22" value="&lt;font&gt;HAS - A&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-23" target="ukfq2VlUtqQ9S5M-QcPr-15">
+          <mxGeometry y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="-2840" y="-224" as="sourcePoint" />
+            <mxPoint x="-2680" y="-224" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-23" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;ParkingSpotFactory&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ParkingSpotInterface&amp;nbsp;parkingSpot;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;height: 2px; line-height: 160%;&quot;&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial; line-height: 160%;&quot;&gt;&amp;nbsp;public ParkingSpotInterface getParkingSpot(ParkingSpotType parkingSpotType) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; switch (parkingSpotType) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; case TWO_WHEELER_PARKING_SPOT -&amp;gt; {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parkingSpot = new TwoWheelerParkingSpot();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return parkingSpot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; case FOUR_WHEELER_PARKING_SPOT -&amp;gt; {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parkingSpot = new FourWheelerParkingSpot();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return parkingSpot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; default -&amp;gt; {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parkingSpot = null;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return parkingSpot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2740" y="96" width="620" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-24" target="ukfq2VlUtqQ9S5M-QcPr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-29" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-28">
+          <mxGeometry x="0.02" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-24" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;TwoWheelerParkingSpot&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3440" y="-90" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-25" target="ukfq2VlUtqQ9S5M-QcPr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-27" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-26">
+          <mxGeometry x="-0.0737" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-25" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;FourWheelerParkingSpot&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3440" y="-370" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-30" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;fontSize=16;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3085" y="-80" width="285" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-31" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-30">
+          <mxGeometry width="285" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-32" value="ParkingSpotType" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-30">
+          <mxGeometry y="20" width="285" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-33" value="" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=16;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-30">
+          <mxGeometry y="40" width="285" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-34" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;TWO_WHEELER_PARKING_SPOT&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;FOUR_WHEELER_PARKING_SPOT&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacing=0;spacingLeft=8;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-30">
+          <mxGeometry y="48" width="285" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1275" y="-44" as="sourcePoint" />
+            <mxPoint x="-1275" y="-44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-36" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span&gt;&lt;b&gt;ParkingSpotManagerInterface&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; public void findParkingSpace();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; public void addParkingSpace(ParkingSpot parkingSpot);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; public void removeParkingSpace();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; public ParkingSpot parkVehicle(Vehicle vehicle);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; public void removeVehicle(Vehicle vehicle);&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1875" y="-240" width="460" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-37" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;ParkingSpotManager&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; List&amp;lt;ParkingSpot&amp;gt; parkingSpotList;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="-151.75" width="300" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-37" target="ukfq2VlUtqQ9S5M-QcPr-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-460" y="-105" as="sourcePoint" />
+            <mxPoint x="-460" y="-235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-39" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;Implements&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-40" value="&lt;font&gt;HAS-A&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-41" target="ukfq2VlUtqQ9S5M-QcPr-36">
+          <mxGeometry x="-0.4839" y="35" width="160" relative="1" as="geometry">
+            <mxPoint x="-1100" y="-4" as="sourcePoint" />
+            <mxPoint x="-940" y="-4" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-41" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;ParkingSpotManagerFactory&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;static volatile ParkingSpotManagerInterface twoWheelerParkingSpotManger;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; static volatile ParkingSpotManagerInterface fourWheelerParkingSpotManger&lt;/span&gt;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span&gt;;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;height: 2px; line-height: 150%;&quot;&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; line-height: 150%;&quot;&gt;public static ParkingSpotManagerInterface getParkingSpotManager(ParkingSpotType parkingSpotType) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; switch (parkingSpotType) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; case TWO_WHEELER_PARKING_SPOT -&amp;gt; {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (twoWheelerParkingSpotManger == null) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; synchronized (ParkingSpotManagerFactory.class) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (twoWheelerParkingSpotManger == null) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; twoWheelerParkingSpotManger = new TwoWheelerParkingSpotManager();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return twoWheelerParkingSpotManger;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; case FOUR_WHEELER_PARKING_SPOT -&amp;gt; {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (fourWheelerParkingSpotManger == null) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; synchronized (ParkingSpotManagerFactory.class) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (fourWheelerParkingSpotManger == null) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fourWheelerParkingSpotManger = new FourWheelerParkingSpotManager();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return fourWheelerParkingSpotManger;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; default -&amp;gt; {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; twoWheelerParkingSpotManger = null;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fourWheelerParkingSpotManger = null;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return null;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2050" y="96" width="810" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-44" target="ukfq2VlUtqQ9S5M-QcPr-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-43" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-42">
+          <mxGeometry x="0.02" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-44" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;TwoWheelerParkingSpotManager&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="20" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-47" target="ukfq2VlUtqQ9S5M-QcPr-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-46" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-45">
+          <mxGeometry x="-0.0737" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-47" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;FourWheelerParkingSpotManager&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-160" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-48" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;fontSize=16;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="10" width="285" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-49" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-48">
+          <mxGeometry width="285" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-50" value="ParkingSpotType" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-48">
+          <mxGeometry y="20" width="285" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-51" value="" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=16;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-48">
+          <mxGeometry y="40" width="285" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-52" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;TWO_WHEELER_PARKING_SPOT&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;FOUR_WHEELER_PARKING_SPOT&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacing=0;spacingLeft=8;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=16;strokeWidth=2;" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-48">
+          <mxGeometry y="48" width="285" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-54" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span&gt;&lt;b&gt;PricingStrategy&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; text-align: center; line-height: 140%;&quot;&gt;&lt;span&gt;double getPerUnitPrice();&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="460" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-55" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;MinutePricingStrategy&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; private static final double PRICE = .5;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;@Override&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; public double getPerUnitPrice() {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return PRICE;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="400" width="320" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-55" target="ukfq2VlUtqQ9S5M-QcPr-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="-476" as="sourcePoint" />
+            <mxPoint x="1040" y="-606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-57" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;Implements&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-67" target="ukfq2VlUtqQ9S5M-QcPr-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-72" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;Implements&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-71">
+          <mxGeometry x="-0.0853" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-67" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;HourlyPricingStrategy&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; private static final double PRICE = 50.0;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; @Override&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; public double getPerUnitPrice() {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return PRICE;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="170" width="320" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-68" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;SecondPricingStrategy&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; private static final double PRICE = .2;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; @Override&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; public double getPerUnitPrice() {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return PRICE;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="630" width="320" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-68" target="ukfq2VlUtqQ9S5M-QcPr-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="-415.75" as="sourcePoint" />
+            <mxPoint x="740" y="-415.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-155" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-70" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;Implements&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-805" y="-440" as="sourcePoint" />
+            <mxPoint x="-805" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-74" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CostComputationInterface&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 140%; text-align: center;&quot;&gt;&amp;nbsp; double calculateTotalPrice();&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="-560" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-75" target="ukfq2VlUtqQ9S5M-QcPr-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-105" value="HAS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-104">
+          <mxGeometry x="-0.1148" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-75" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 110%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 110%;&quot;&gt;&lt;span&gt;&lt;b&gt;CostComputation&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; PricingStrategy hourStrategy;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; PricingStrategy minuteStrategy;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; PricingStrategy secondStrategy;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; long hour;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; long minute;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; long second;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-620" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-76" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fontSize=16;" edge="1" source="ukfq2VlUtqQ9S5M-QcPr-75" target="ukfq2VlUtqQ9S5M-QcPr-74" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="-480" as="sourcePoint" />
+            <mxPoint x="170" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-77" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;Implements&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ukfq2VlUtqQ9S5M-QcPr-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-78" value="&lt;font&gt;HAS - A&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" source="ukfq2VlUtqQ9S5M-QcPr-79" target="ukfq2VlUtqQ9S5M-QcPr-74" parent="1">
+          <mxGeometry y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="-680" y="-520" as="sourcePoint" />
+            <mxPoint x="-470" y="-480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-79" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;/p&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;CostComputationFactory&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;height: 2px; line-height: 160%;&quot;&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial; line-height: 160%;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;public static CostComputationInterface getCostComputation(VehicleType vehicleType, long hour,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long minute, long second) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CostComputationInterface computation;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; switch (vehicleType) {&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; case TWO_WHEELER: {&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; computation = new TwoWheelerCostComputation(hour, minute, second);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; case FOUR_WHEELER: {&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; computation = new FourWheelerCostComputation(hour, minute, second);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; default: {&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; computation = null;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return computation;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-805" width="740" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="ukfq2VlUtqQ9S5M-QcPr-94" target="ukfq2VlUtqQ9S5M-QcPr-75" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170.00000000000045" y="-700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-84" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-83">
+          <mxGeometry x="-0.0737" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-91" target="ukfq2VlUtqQ9S5M-QcPr-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-93" value="&lt;span&gt;Extends&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-92">
+          <mxGeometry x="0.1971" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-91" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 110%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 110%;&quot;&gt;&lt;b&gt;TwoWheelerCostComputation&lt;/b&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; public TwoWheelerCostComputation(long hour, long minute, long second) {&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; super(hour, minute, second);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; @Override&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; public double calculateTotalPrice() {&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return 1.2 * super.calculateTotalPrice();&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-655" width="570" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-94" target="ukfq2VlUtqQ9S5M-QcPr-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-94" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 110%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 110%;&quot;&gt;&lt;b&gt;FourWheelerCostComputation&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;public FourWheelerCostComputation(long hour, long minute, long second) {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; super(hour, minute, second);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; @Override&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; public double calculateTotalPrice() {&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return 1.8 * super.calculateTotalPrice();&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 150%;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="-1000" width="570" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-95" target="ukfq2VlUtqQ9S5M-QcPr-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-124" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;HAS-A&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-110">
+          <mxGeometry x="-0.2596" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-95" target="ukfq2VlUtqQ9S5M-QcPr-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2710" y="-430" />
+              <mxPoint x="-2710" y="-232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-114" value="HAS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-113">
+          <mxGeometry x="-0.2212" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-95" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;EntranceGate&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 150%;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; line-height: 150%;&quot;&gt;ParkingSpot parkingSpot;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 150%;&quot;&gt;&lt;span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ParkingSpotManagerInterface parkingSpotManager;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;height: 2px; line-height: 160%;&quot;&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; void findParkingSpaceAndBook(Vehicle vehicle)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; void generateTicket(Vehicle vehicle, ParkingSpot parkedSpot)&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2490" y="-607.25" width="490" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-96" target="ukfq2VlUtqQ9S5M-QcPr-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-108" value="HAS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-106">
+          <mxGeometry x="-0.1739" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-96" target="ukfq2VlUtqQ9S5M-QcPr-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1960" y="-220" as="sourcePoint" />
+            <mxPoint x="-1940" y="409.98" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-125" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;HAS-A&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-109">
+          <mxGeometry x="-0.1529" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-96" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt; Class &amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;ExitGate&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 150%;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 150%;&quot;&gt;&lt;span&gt;ParkingSpotManagerInterface parkingSpotManager;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 150%;&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;CostComputationInterface cost;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;height: 2px; line-height: 160%;&quot;&gt;&lt;hr style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; void exitVehicle(Vehicle vehicle);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; void calculatePrice(Ticket ticket, Vehicle vehicle)&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1890" y="-605" width="490" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-2" target="ukfq2VlUtqQ9S5M-QcPr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-98" value="HAS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-97">
+          <mxGeometry x="0.1706" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.777;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="ukfq2VlUtqQ9S5M-QcPr-1" target="ukfq2VlUtqQ9S5M-QcPr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukfq2VlUtqQ9S5M-QcPr-123" value="HAS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="ukfq2VlUtqQ9S5M-QcPr-122">
+          <mxGeometry x="-0.0477" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

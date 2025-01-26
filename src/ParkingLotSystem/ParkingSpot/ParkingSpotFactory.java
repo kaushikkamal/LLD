@@ -4,8 +4,8 @@ public class ParkingSpotFactory {
     public ParkingSpotFactory() {
     }
 
-    public ParkingSpot getParkingSpot(ParkingSpotType parkingSpotType) {
-        ParkingSpot parkingSpot;
+    public ParkingSpotInterface getParkingSpot(ParkingSpotType parkingSpotType) {
+        ParkingSpotInterface parkingSpot;
         switch (parkingSpotType) {
             case TWO_WHEELER_PARKING_SPOT -> {
                 parkingSpot = new TwoWheelerParkingSpot();

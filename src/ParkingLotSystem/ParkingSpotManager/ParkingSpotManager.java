@@ -13,10 +13,6 @@ public class ParkingSpotManager implements ParkingSpotManagerInterface {
         this.parkingSpotList = new ArrayList<>();
     }
 
-    public ParkingSpotManager(List<ParkingSpot> parkingSpotList) {
-        this.parkingSpotList = parkingSpotList;
-    }
-
     @Override
     public void findParkingSpace() {
 
