@@ -1,2 +1,6 @@
-package TicTacToeSystem.tictactoe;public enum PieceType {
+package TicTacToeSystem.tictactoe;
+
+public enum PieceType {
+    X,
+    O
 }

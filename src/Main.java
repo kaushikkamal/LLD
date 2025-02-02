@@ -1,5 +1,6 @@
 import ElevatorSystem.ElevatorDrive;
 import ParkingLotSystem.ParkingLotDriver;
+import TicTacToeSystem.TicTacToeGame;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +15,11 @@ public class Main {
 //        ElevatorSystemDriver.execute();
 //        ElevatorDrive.execute();
 
-        ParkingLotDriver.execute();
+//        ParkingLotDriver.execute();
+
+        TicTacToeGame game = new TicTacToeGame();
+        game.initializeGame(3);
+        String result = game.startGame();
+        System.out.println(result);
     }
 }
