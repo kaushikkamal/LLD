@@ -1,5 +1,6 @@
 import CarRentalSystem.CarRentalSystemDriver;
 import ElevatorSystem.ElevatorDrive;
+import NullObjectPattern.NullObjectPattern;
 import ParkingLotSystem.ParkingLotDriver;
 import TicTacToeSystem.TicTacToeGame;
 
@@ -24,6 +25,8 @@ public class Main {
 //        String result = game.startGame();
 //        System.out.println(result);
 
-        CarRentalSystemDriver.execute();
+//        CarRentalSystemDriver.execute();
+
+        NullObjectPattern.execute();
     }
 }
