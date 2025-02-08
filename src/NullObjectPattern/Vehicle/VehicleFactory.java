@@ -7,6 +7,6 @@ public class VehicleFactory {
         if (OBJECT.equals(typeOfVehicle)) {
             return new SportVehicle();
         }
-        return new NullVehicle();
+        return new NullVehicle(); // replace null with Null Object
     }
 }
