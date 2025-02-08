@@ -1,13 +1,11 @@
-import CarRentalSystem.CarRentalSystemDriver;
-import ElevatorSystem.ElevatorDrive;
-import NullObjectPattern.NullObjectPattern;
-import ParkingLotSystem.ParkingLotDriver;
-import TicTacToeSystem.TicTacToeGame;
+import LoggingSystem.LoggingSystemDriver;
+import NullObjectPattern.NullObjectPatternDriver;
+import TicTacToeSystem.TicTacToeDriver;
 
 public class Main {
     public static void main(String[] args) {
 
-//        StrategyDesignPatternDriver.execute();
+//        StrategyDesignPatternDriver.execute(); // Strategy Design Pattern
 //        ObserverDesignPatternDriver.execute(); // Observer Design Pattern
 //        SingletonDesignPatternDriver.execute(); // Singleton Design Pattern
 //        DecoratorDesignPatternDriver.execute(); // Decorator Design Pattern
@@ -20,13 +18,12 @@ public class Main {
 
 //        ParkingLotDriver.execute();
 
-//        TicTacToeGame game = new TicTacToeGame();
-//        game.initializeGame(3);
-//        String result = game.startGame();
-//        System.out.println(result);
+//        TicTacToeDriver.execute();
 
 //        CarRentalSystemDriver.execute();
 
-        NullObjectPattern.execute();
+//        NullObjectPatternDriver.execute();
+
+//        LoggingSystemDriver.execute();
     }
 }
