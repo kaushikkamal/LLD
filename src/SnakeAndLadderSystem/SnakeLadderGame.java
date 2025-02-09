@@ -12,7 +12,7 @@ import java.util.LinkedList;
 public class SnakeLadderGame {
     private Board board;
     private Dice dice;
-    private final Deque<Player> playersList = new LinkedList<>();
+    private Deque<Player> playersList;
     private Player winner;
 
     public SnakeLadderGame() {
@@ -27,6 +27,8 @@ public class SnakeLadderGame {
     }
 
     private void addPlayers() {
+        playersList = new LinkedList<>();
+
         Player p1 = new Player("p1", "KKB");
         Player p2 = new Player("p2", "Borah");
 
@@ -45,10 +47,11 @@ public class SnakeLadderGame {
             //roll the dice
             int diceNumber = dice.rollDice();
 
-            System.out.println("Dice -> "+diceNumber);
+            System.out.println("Dice -> " + diceNumber);
 
             int playerNewPosition = currentPlayer.getCurrentPosition() + diceNumber;
             playerNewPosition = checkForJump(playerNewPosition);
+
             if (playerNewPosition <= board.getBoardSize() * board.getBoardSize() - 1) {
                 currentPlayer.setCurrentPosition(playerNewPosition);
                 System.out.println("Current player is: " + currentPlayer.getName() + " new position is: " + currentPlayer.getCurrentPosition());
@@ -88,5 +91,4 @@ public class SnakeLadderGame {
         this.playersList.addLast(currentPlayer);
         return currentPlayer;
     }
-
 }
