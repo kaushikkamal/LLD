@@ -1,3 +1,4 @@
+import DesignPattern.Structural.Proxy.ProxyDesignPatternDriver;
 import SnakeAndLadderSystem.SnakeLadderDriver;
 
 public class Main {
@@ -9,6 +10,8 @@ public class Main {
 //        DecoratorDesignPatternDriver.execute(); // Decorator Design Pattern
 //        FactoryDesignPatternDriver.execute(); // Factory Design Pattern
 //        AbstractFactoryDesignPatternDriver.execute(); // Abstract Factory Design Pattern
+
+//        ProxyDesignPatternDriver.execute(); // Proxy Design Pattern
 
 //        ElevatorSystemDemo.run();
 //        ElevatorSystemDriver.execute();
@@ -24,6 +27,6 @@ public class Main {
 
 //        LoggingSystemDriver.execute();
 
-        SnakeLadderDriver.execute();
+//        SnakeLadderDriver.execute();
     }
 }
