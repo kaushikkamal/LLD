@@ -1,4 +1,4 @@
-package DesignPattern.Structural.Proxy;
+package DesignPattern.Structural.Proxy.Employee;
 
 public class EmployeeProxy implements EmployeeInterface {
     private static final String ROLE_ADMIN = "ADMIN";

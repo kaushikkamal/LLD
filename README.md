@@ -9,26 +9,27 @@ LLD or Low-Level Design, is a phase in the software development process where de
 
 - [Abstract Factory](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/AbstractFactory)
 
-[//]: # (- [Builder]&#40;https://refactoring.guru/design-patterns/builder&#41;)
 ### Structural Patterns
 
-[//]: # (- [Adapter]&#40;https://refactoring.guru/design-patterns/adapter&#41;)
-[//]: # (- [Facade]&#40;https://refactoring.guru/design-patterns/facade&#41;)
 - [Decorator](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Structural/Decorator)
 
-[//]: # (- [Composite]&#40;https://refactoring.guru/design-patterns/composite&#41;)
+- [Proxy](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Structural/Proxy)
+
 ### Behavioral Patterns
 - [Strategy](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Behavioral/Strategy)
 
-[//]: # (- [Iterator]&#40;https://refactoring.guru/design-patterns/iterator&#41;)
-
 - [Observer](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Behavioral/Observer)
 
-[//]: # (- [Template Method]&#40;https://refactoring.guru/design-patterns/template-method&#41;)
-
-[//]: # (- [Command]&#40;https://refactoring.guru/design-patterns/command&#41;)
-[//]: # (- [State]&#40;https://refactoring.guru/design-patterns/state&#41;)
+## Design System
+1. [Parking Lot System](https://github.com/kaushikkamal/LLD/tree/main/src/ParkingLotSystem)
+2. [Elevator System](https://github.com/kaushikkamal/LLD/tree/main/src/ElevatorSystem)
+3. [Car Rental System](https://github.com/kaushikkamal/LLD/tree/main/src/CarRentalSystem)
+4. [Tic Tac Toe System](https://github.com/kaushikkamal/LLD/tree/main/src/TicTacToeSystem)
+5. [Logging System](https://github.com/kaushikkamal/LLD/tree/main/src/LoggingSystem)
+6. [Null Object Pattern](https://github.com/kaushikkamal/LLD/tree/main/src/NullObjectPattern)
+7. [Snake And Ladder System](https://github.com/kaushikkamal/LLD/tree/main/src/SnakeAndLadderSystem)
 
 ## Resources
+- [Low Level Design from Basics to Advanced - Concept && Coding - by Shrayansh](https://www.youtube.com/playlist?list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW)
 - [Awesome-low-level-design - Ashish Pratap Singh](https://github.com/ashishps1/awesome-low-level-design/)
 - [Refactoring Guru](https://refactoring.guru/design-patterns)

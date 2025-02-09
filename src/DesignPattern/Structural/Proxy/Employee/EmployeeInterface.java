@@ -1,4 +1,4 @@
-package DesignPattern.Structural.Proxy;
+package DesignPattern.Structural.Proxy.Employee;
 
 public interface EmployeeInterface {
     void create(String client, Employee employee) throws Exception;

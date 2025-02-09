@@ -1,4 +1,4 @@
-package DesignPattern.Structural.Proxy;
+package DesignPattern.Structural.Proxy.Employee;
 
 public class Employee {
     public Employee() {
