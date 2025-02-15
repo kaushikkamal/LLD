@@ -1,4 +1,5 @@
 import DesignPattern.Structural.Proxy.ProxyDesignPatternDriver;
+import MovieTicketBookingSystem.MovieTickerBookingDriver;
 import SnakeAndLadderSystem.SnakeLadderDriver;
 
 public class Main {
@@ -28,5 +29,7 @@ public class Main {
 //        LoggingSystemDriver.execute();
 
 //        SnakeLadderDriver.execute();
+
+        MovieTickerBookingDriver.execute();
     }
 }
