@@ -4,20 +4,16 @@ LLD or Low-Level Design, is a phase in the software development process where de
 ## ⚙️ Design Patterns
 ### Creational Patterns
 - [Singleton](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/Singleton)
-
 - [Factory Method](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/FactoryMethod)
-
 - [Abstract Factory](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/AbstractFactory)
 
 ### Structural Patterns
 
 - [Decorator](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Structural/Decorator)
-
 - [Proxy](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Structural/Proxy)
 
 ### Behavioral Patterns
 - [Strategy](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Behavioral/Strategy)
-
 - [Observer](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Behavioral/Observer)
 
 ## Design System
@@ -28,6 +24,8 @@ LLD or Low-Level Design, is a phase in the software development process where de
 5. [Logging System](https://github.com/kaushikkamal/LLD/tree/main/src/LoggingSystem)
 6. [Null Object Pattern](https://github.com/kaushikkamal/LLD/tree/main/src/NullObjectPattern)
 7. [Snake And Ladder System](https://github.com/kaushikkamal/LLD/tree/main/src/SnakeAndLadderSystem)
+8. [Movie Ticket Booking System](https://github.com/kaushikkamal/LLD/tree/main/src/MovieTicketBookingSystem)
+9. [VendingMachineSystem](https://github.com/kaushikkamal/LLD/tree/main/src/VendingMachineSystem)
 
 ## Resources
 - [Low Level Design from Basics to Advanced - Concept && Coding - by Shrayansh](https://www.youtube.com/playlist?list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW)
