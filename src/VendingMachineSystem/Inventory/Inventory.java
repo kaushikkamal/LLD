@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Inventory {
-    List<ItemShelf> itemShelfList;
+    private List<ItemShelf> itemShelfList;
     private int inventorySize;
 
     public Inventory(int inventorySize) {
