@@ -12,7 +12,7 @@ public class SelectOperationState extends ATMState {
 
     private void showOperations() {
         System.out.println("Please select the Operation");
-        TransactionType.showAllTransactionTypes();
+//        TransactionType.showAllTransactionTypes();
     }
 
     @Override
