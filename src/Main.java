@@ -1,3 +1,5 @@
+import ATMMachineSystem.ATMDriver;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -29,5 +31,7 @@ public class Main {
 //        MovieTickerBookingDriver.execute();
 
 //        VendingMachineDriver.execute();
+
+        ATMDriver.execute();
     }
 }

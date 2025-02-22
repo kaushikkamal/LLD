@@ -25,7 +25,8 @@ LLD or Low-Level Design, is a phase in the software development process where de
 6. [Null Object Pattern](https://github.com/kaushikkamal/LLD/tree/main/src/NullObjectPattern)
 7. [Snake And Ladder System](https://github.com/kaushikkamal/LLD/tree/main/src/SnakeAndLadderSystem)
 8. [Movie Ticket Booking System](https://github.com/kaushikkamal/LLD/tree/main/src/MovieTicketBookingSystem)
-9. [VendingMachineSystem](https://github.com/kaushikkamal/LLD/tree/main/src/VendingMachineSystem)
+9. [Vending Machine System](https://github.com/kaushikkamal/LLD/tree/main/src/VendingMachineSystem)
+10. [ATM Machine System](https://github.com/kaushikkamal/LLD/tree/main/src/ATMMachineSystem)
 
 ## Resources
 - [Low Level Design from Basics to Advanced - Concept && Coding - by Shrayansh](https://www.youtube.com/playlist?list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW)
