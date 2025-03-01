@@ -6,6 +6,7 @@ LLD or Low-Level Design, is a phase in the software development process where de
 - [Singleton](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/Singleton)
 - [Factory Method](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/FactoryMethod)
 - [Abstract Factory](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/AbstractFactory)
+- [Builder](https://github.com/kaushikkamal/LLD/tree/main/src/DesignPattern/Creational/Builder)
 
 ### Structural Patterns
 
@@ -26,7 +27,8 @@ LLD or Low-Level Design, is a phase in the software development process where de
 7. [Snake And Ladder System](https://github.com/kaushikkamal/LLD/tree/main/src/SnakeAndLadderSystem)
 8. [Movie Ticket Booking System](https://github.com/kaushikkamal/LLD/tree/main/src/MovieTicketBookingSystem)
 9. [Vending Machine System](https://github.com/kaushikkamal/LLD/tree/main/src/VendingMachineSystem)
-10. [ATM Machine System](https://github.com/kaushikkamal/LLD/tree/main/src/ATMMachineSystem)
+10. [ATM System](https://github.com/kaushikkamal/LLD/tree/main/src/ATMMachineSystem)
+10. [File System](https://github.com/kaushikkamal/LLD/tree/main/src/FileSystem)
 
 ## Resources
 - [Low Level Design from Basics to Advanced - Concept && Coding - by Shrayansh](https://www.youtube.com/playlist?list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW)
