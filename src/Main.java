@@ -9,6 +9,7 @@ public class Main {
 //        DecoratorDesignPatternDriver.execute(); // Decorator Design Pattern
 //        FactoryDesignPatternDriver.execute(); // Factory Design Pattern
 //        AbstractFactoryDesignPatternDriver.execute(); // Abstract Factory Design Pattern
+//        BuilderDesignPatternDriver.execute(); // Builder Design Pattern
 
 //        ProxyDesignPatternDriver.execute(); // Proxy Design Pattern
 
