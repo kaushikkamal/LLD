@@ -1,4 +1,4 @@
-import SplitWise.SplitWiseDriver;
+import InventoryOrderManagementSystem.InventoryOrderManagementDriver;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,6 +39,9 @@ public class Main {
 
 //        CricbuzzMatchDayDriver.startMatch();
 
-        SplitWiseDriver.start();
+//        SplitWiseDriver.start();
+
+        InventoryOrderManagementDriver.start();
+
     }
 }

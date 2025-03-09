@@ -31,6 +31,7 @@ LLD or Low-Level Design, is a phase in the software development process where de
 10. [File System](https://github.com/kaushikkamal/LLD/tree/main/src/FileSystem)
 10. [Cricbuzz System](https://github.com/kaushikkamal/LLD/tree/main/src/Cricbuzz)
 11. [SplitWise System](https://github.com/kaushikkamal/LLD/tree/main/src/SplitWise)
+12. [Inventory / Order Management System](https://github.com/kaushikkamal/LLD/tree/main/src/InventoryOrderManagementSystem)
 
 ## Resources
 - [Low Level Design from Basics to Advanced - Concept && Coding - by Shrayansh](https://www.youtube.com/playlist?list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW)
