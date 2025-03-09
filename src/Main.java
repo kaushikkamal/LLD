@@ -1,3 +1,5 @@
+import SplitWise.SplitWiseDriver;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -36,5 +38,7 @@ public class Main {
 //        FileSystemDriver.execute();
 
 //        CricbuzzMatchDayDriver.startMatch();
+
+        SplitWiseDriver.start();
     }
 }
